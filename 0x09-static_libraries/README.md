@@ -1,0 +1,1 @@
+library is a collection of precompiled routines, functions, and procedures that can be used by other programs. Libraries provide reusable code, allowing developers to save time and effort by using existing functionality instead of rewriting it.
