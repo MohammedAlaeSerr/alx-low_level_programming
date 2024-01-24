@@ -1,27 +1,27 @@
 #include "function_pointers.h"
 
 /**
-  * int_index - undex
-  * @array: array
-  * @size: is the number of elements in the array
-  * @cmp:  is a pointer to the func
+  * int_index - ...
+  * @array: ...
+  * @size: ...
+  * @cmp: ...
   *
-  * Return: returns the index of the first element 
+  * Return: ...
   */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int j = 0;
+	int i = 0;
 
 	if (size > 0)
 	{
 		if (array != NULL && cmp != NULL)
 		{
-			while (j < size)
+			while (i < size)
 			{
-				if (cmp(array[j]))
-					return (j);
+				if (cmp(array[i]))
+					return (i);
 
-				j++;
+				i++;
 			}
 		}
 	}
