@@ -4,7 +4,7 @@
   * int_index - undex
   * @array: array
   * @size: is the number of elements in the array
-  * @cmp:  is a pointer to the function to compare values
+  * @cmp:  is a pointer to the func
   *
   * Return: returns the index of the first element 
   */
