@@ -1,4 +1,5 @@
 #include "lists.h"
+#include "stdio.h"
 
 /**
  * print_listint - the number of elements in a linked list.
