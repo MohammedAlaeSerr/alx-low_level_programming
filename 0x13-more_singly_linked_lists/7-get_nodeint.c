@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - returns the nth node of a listint_t linked list.
- * @head: pointer to the root elm.
- * index: the index of elm to return.
+ * get_nodeint_at_index - the nth node of a listint_t linked list.
+ * @head: pointer of the first node
+ * @index: index is the index of the node
  *
- * Return: the elm of index: @index || NULL if not exist.
+ * Return: pointer of Index
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
