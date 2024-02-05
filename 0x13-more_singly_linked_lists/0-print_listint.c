@@ -8,7 +8,7 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t couter = 0;
+	size_t counter = 0;
 
 	while (h != NULL)
 	{
@@ -17,4 +17,5 @@ size_t print_listint(const listint_t *h)
 		counter++;
 	}
 
-	return (cou
+	return (counter);
+}
