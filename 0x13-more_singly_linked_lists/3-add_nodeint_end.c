@@ -2,12 +2,12 @@
 #include "stdlib.h"
 
 /**
- * add_nodeint_end - add node at end of a listint_t list.
- * @head: double pointer to the root item in the linked list.
- * @n: the integer values of the new element.
- *
- * Return: the adress of the new elm or NULL.
- */
+  * add_nodeint_end - add node at end of a listint_t list.
+  *
+  * @head: head of double pointer
+  * @n: int add the list
+  * Return: NULL if it failed
+  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *curr;
