@@ -2,7 +2,7 @@
 #include "stdlib.h"
 
 /**
- * add_nodeint_end - adds a new node at the end of listint_t list.
+ * add_nodeint_end - add node at end of a listint_t list.
  * @head: double pointer to the root item in the linked list.
  * @n: the integer values of the new element.
  *
@@ -10,7 +10,7 @@
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t *curr = *head;
+	listint_t *curr;
 	listint_t *new_elm = malloc(sizeof(listint_t));
 
 	if (new_elm == NULL)
@@ -24,6 +24,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		return (new_elm);
 	}
 
+	curr = *head;
 	while (curr->next != NULL)
 	{
 		curr = curr->next;
